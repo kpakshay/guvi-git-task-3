@@ -1,0 +1,59 @@
+body{
+    width: 98%;
+    height: 98vh;
+    border: 2px black;
+    border-style: solid;
+}
+body button{
+    background: none;
+}
+.title{
+    padding-left: 30%;
+    padding-top: 4%;
+}
+.title button{
+    width: 450px;
+    height: 50px;
+    font-size: 2em;
+   
+}
+.main{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2%;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+.row{
+    display: grid;
+    grid-auto-flow: column;
+    width: 80%;
+    height: 80%;
+    border: 2px black;
+    gap:2%;
+    align-items: center;
+   
+}
+.col{
+    border-style: solid;
+    padding: 2px;
+}
+.col h3{
+    text-align: center;
+}
+.incol{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 1%;
+}
+
+.b{ 
+    width: 90px;
+    border: 1px solid black;
+}
+.b img{
+    width: 90%;
+    padding: 5px;
+    border-radius: 100px;
+}
